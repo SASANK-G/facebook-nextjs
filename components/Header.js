@@ -34,7 +34,7 @@ function Header() {
           <SearchIcon 
           className='h-6 text-gray-600'
           />
-          <input className='flex ml-2 items-center bg-transparent outline-none placeholder-gray-500 flex-shrink ' type="text" placeholder="Search">
+          <input className=' hidden md:inline-flex flex ml-2 items-center bg-transparent outline-none placeholder-gray-500 flex-shrink ' type="text" placeholder="Search">
 
           </input>
         </div>
@@ -53,6 +53,16 @@ function Header() {
       </div>
 
       {/* right */}
+      <div className="flex items-center sm:space-x-2 justify-end">
+        <p 
+        className="whitespace-nowrapfont-semibold pr-3"
+        >sasank</p>
+
+        <ViewGridIcon className="icon"/>
+        <BellIcon className="icon"/>
+        <ChevronDownIcon className="icon"/>
+
+      </div>
     </div>
   )
 }
