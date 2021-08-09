@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Header from '../components/Header'
 
 
 export default function Home() {
@@ -9,7 +10,14 @@ export default function Home() {
        
       </Head>
 
-      <h1>sasank</h1>
+      {/* Header */}
+      <Header/>
+      <main>
+        {/* Sidebar */}
+        {/* Feed */}
+        {/* Widgets */}
+      </main>
+
     </div>
   )
 }
