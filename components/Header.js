@@ -54,11 +54,10 @@ function Header() {
 
       {/* right */}
       <div className="flex items-center sm:space-x-2 justify-end">
-        <p 
-        className="whitespace-nowrapfont-semibold pr-3"
-        >sasank</p>
+        <p className="whitespace-nowrap font-semibold pr-3">Sasank</p>
 
         <ViewGridIcon className="icon"/>
+        <ChatIcon className="icon" />
         <BellIcon className="icon"/>
         <ChevronDownIcon className="icon"/>
 

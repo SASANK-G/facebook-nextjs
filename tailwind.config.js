@@ -6,6 +6,8 @@ module.exports = {
 
      './src/**/*.js',
 
+     './src/**/*.jsx',
+
    ],
     darkMode: false, // or 'media' or 'class'
     theme: {
@@ -13,4 +15,7 @@ module.exports = {
     },
     variants: {},
     plugins: [],
+
+
+    
   }
