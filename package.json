@@ -11,6 +11,7 @@
   "dependencies": {
     "@heroicons/react": "^1.0.3",
     "next": "11.0.1",
+    "next-auth": "^3.27.3",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
@@ -22,6 +23,4 @@
     "tailwindcss": "^2.2.7",
     "tailwindcss-pseudo-elements": "^2.0.0"
   }
-
-
 }
